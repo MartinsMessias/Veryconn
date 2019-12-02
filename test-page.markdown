@@ -108,11 +108,11 @@ $HOME/.config/git/ignore
 ### Patterns avançados
 
 \# - A cerquilha marca um comentário em nosso arquivo
-- Ignora partes do nome de um pattern, agindo como um coringa
+\- Ignora partes do nome de um pattern, agindo como um coringa
 ! - Permite que um determinado pattern seja excluído. Geralmente vem acompanhado de outra regra mais genérica
 / - Tem função diferente dependendo da sua localização. No início da linha, ignora um pattern somente naquele diretório, mas não em seus subdiretórios. No final ignora toda a árvore do diretório
 \ - A barra invertida atua como um caractere de escape
-** - Dois asteriscos em seguida são usados para ignorar um pattern específico dentro de uma árvore de diretórios
+\** - Dois asteriscos em seguida são usados para ignorar um pattern específico dentro de uma árvore de diretórios
 
 Para ficar mais claro, veja alguns exemplos:
 
