@@ -50,25 +50,7 @@ Executando git commit
     Rabanete      |  Rabanete  >>> Rabanete        
 
 ## Ações dos comandos no fluxo básico
-                   |  workspace       |  staging    |  local repository | remote repository
-                   |                  |             |                   |
-                   |git init         <--------------<                   |
-Initialize         |git clone        <----------------------------------<
-                   |                  |             |                   |
-Update             |git pull         <----------------------------------<
-                   |                  |             |git fetch         <-<
-                   |                  |             |                   |
-Changes            |git commit -a    >-------------->                   |
-                   |git add          >->            |                   |
-                   |                  |git commit  >->                  |
-                   |                  |             |git push          >->
-                   |                  |             |                   |
-Revert             |git checkout head<--------------<                   |
-                   |git checkout     <-<            |                   |
-                   |                  |             |                   |
-Diff               |git diff          >--------------<     Local        |   Remote
-
-
+![Screenshot_20191201_224637.png](/uploads/Screenshot_20191201_224637.png)
 
 ## Comandos utilizados
 
