@@ -50,7 +50,6 @@ Executando git commit
     Rabanete      |  Rabanete  >>> Rabanete        
 
 ## Ações dos comandos no fluxo básico
-
                    |  workspace       |  staging    |  local repository | remote repository
                    |                  |             |                   |
                    |git init         <--------------<                   |
