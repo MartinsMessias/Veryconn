@@ -3,4 +3,4 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "/articles/:title/" 
+    permalink: "/posts/:title/" 
