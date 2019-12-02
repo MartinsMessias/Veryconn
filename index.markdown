@@ -1,6 +1,1 @@
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/posts/:title/" 
+[Anotações - GIT & GitHub](veryconn.siteleaf.net/posts/git/)
