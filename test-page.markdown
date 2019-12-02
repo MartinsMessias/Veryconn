@@ -107,7 +107,7 @@ $HOME/.config/git/ignore
 
 ### Patterns avançados
 
-# - A cerquilha marca um comentário em nosso arquivo
+\# - A cerquilha marca um comentário em nosso arquivo
 - Ignora partes do nome de um pattern, agindo como um coringa
 ! - Permite que um determinado pattern seja excluído. Geralmente vem acompanhado de outra regra mais genérica
 / - Tem função diferente dependendo da sua localização. No início da linha, ignora um pattern somente naquele diretório, mas não em seus subdiretórios. No final ignora toda a árvore do diretório
