@@ -39,5 +39,5 @@ Criado para resolver o problema do desenvolvedor cria uma aplicação em um ambi
 
 Formato dos comandos Docker
 
-- Novo: Docker <comando> <sub-comando> (opções)
-- Clássico: docker <comando> (opções)
+- Novo: `Docker <comando> <sub-comando> (opções)`
+- Clássico: `docker <comando> (opções)`
