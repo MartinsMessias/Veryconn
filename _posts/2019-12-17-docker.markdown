@@ -14,7 +14,7 @@ Criado para resolver o problema do desenvolvedor cria uma aplicação em um ambi
 * Padronização e Produtividade.
 * Simplicidade e Configurações Rápidas.
 * Multi-Plataforma.
-<center>
+
 ![Screenshot_20191216_200655.png](/uploads/Screenshot_20191216_200655.png)
 
 **Os contâiners estão dentro do Docker.**
