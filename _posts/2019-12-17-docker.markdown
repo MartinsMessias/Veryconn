@@ -42,5 +42,5 @@ Formato dos comandos Docker
 - Novo: `docker <comando> <sub-comando> (opções)`
 - Clássico: `docker <comando> (opções)`
 
-`docker version`
-`docker info`
+- `docker version`
+- `docker info`
