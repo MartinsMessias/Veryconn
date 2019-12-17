@@ -35,4 +35,4 @@ Criado para resolver o problema do desenvolvedor cria uma aplicação em um ambi
 ![Screenshot_20191216_221600.png](/uploads/Screenshot_20191216_221600.png)
 
 -
-
+</div>
