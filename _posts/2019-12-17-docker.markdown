@@ -5,10 +5,6 @@ tags:
 - docker
 ---
 
-<head>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
-
 O Docker é uma alternativa de virtualização em que o kernel da máquina hospedeira é compartilhado com a máquina virtualizada ou o software em operação, portanto um desenvolvedor pode agregar a seu software a possibilidade de levar as bibliotecas e outras dependências do seu programa junto ao software com menos perda de desempenho do que a virtualização do hardware de um servidor completo. Assim, o docker torna operações em uma infraestrutura como serviços web mais intercambiável, eficientes e flexíveis.
 
 Docker é uma ferramenta que pode empacotar um aplicativo e suas dependências em um recipiente virtual que pode ser executado em qualquer servidor Linux. Isso ajuda a permitir flexibilidade e portabilidade de onde o aplicativo pode ser executado, quer nas instalações, nuvem pública, nuvem privada, entre outros.
@@ -48,11 +44,11 @@ Formato dos comandos Docker
 `docker images`
 ### Será apresentado uma tabela no seu Terminal com:
 
-REPOSITORY - repositório
-TAG - a tag utilizada no repositório (é setado pelo mantenedor)
-IMAGE ID - o ID da Imagem
-CREATED - quando essa imagem foi criada
-SIZE - tamanho dessa imagem
+- REPOSITORY - repositório
+- TAG - a tag utilizada no repositório (é setado pelo mantenedor)
+- IMAGE ID - o ID da Imagem
+- CREATED - quando essa imagem foi criada
+- SIZE - tamanho dessa imagem
 
 ## Como adicionar imagens locais?
 ### Utilize o comando search para procurar a imagem e o comando pull para baixar:
@@ -70,7 +66,7 @@ SIZE - tamanho dessa imagem
 `docker rmi ID_ou_nome_da_imagem`
 
 ## Criar um container
-### ## Para executar um container utilize o comando run com o nome da imagem que vá utilizar para a criação:
+### Para executar um container utilize o comando run com o nome da imagem que vá utilizar para a criação:
 
 `docker run nome_da_imagem`
 
@@ -100,13 +96,13 @@ SIZE - tamanho dessa imagem
 
 ### Vai aparecer uma tabela com
 
-CONTAINER ID - ID do container
-IMAGE - a imagem que foi utilizada para gerar esse container
-COMMAND - o comando passado como parâmetro para esse container (exemplo o /bin/bash)
-CREATED - a data da criação do container
-STATUS - o estado do container (parado ou em funcionamento)
-PORTS - as portas compartilhadas entre host e container
-NAMES - e o nome que você deu ao container, se o fez
+- CONTAINER ID - ID do container
+- IMAGE - a imagem que foi utilizada para gerar esse container
+- COMMAND - o comando passado como parâmetro para esse container (exemplo o /bin/bash)
+- CREATED - a data da criação do container
+- STATUS - o estado do container (parado ou em funcionamento)
+- PORTS - as portas compartilhadas entre host e container
+- NAMES - e o nome que você deu ao container, se o fez
 
 ### O ps só vai mostrar os containers que estão em atividade, para verificar todos os containers criados, incluindo os que estiverem parados, utilize o ps -a:
 
@@ -129,13 +125,14 @@ NAMES - e o nome que você deu ao container, se o fez
 
 ### Veremos informações como:
 
-CONTAINER - ID do Container
-CPU % - uso de CPU em porcentagem
-MEM USAGE / LIMIT - Memória usada/Limite que você pode ter setado
-MEM - uso de memória em porcentagem
-NET I/O - I/O de Internet
-BLOCK IO - Outros processos de I/O.
-docker inspect id_ou_apelido
+- CONTAINER - ID do Container
+- CPU % - uso de CPU em porcentagem
+- MEM USAGE / LIMIT - Memória usada/Limite que você pode ter setado
+- MEM - uso de memória em porcentagem
+- NET I/O - I/O de Internet
+- BLOCK IO - Outros processos de I/O.
+
+`docker inspect id_ou_apelido`
 
 ### Esse comando trás muita informação útil, então é bom dar uma olhada na documentação oficial para não se perder pelas linhas!
 
