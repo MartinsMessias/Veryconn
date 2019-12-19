@@ -26,7 +26,9 @@ background-color: darkslategrey;
 		}
 	}
 h2 {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    text-shadow: 0px 0px 35px #00ff0a;
+    color: black;
 }
 code {
     font-family: monospace;
