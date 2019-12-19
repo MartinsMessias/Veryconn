@@ -16,6 +16,8 @@ tags:
     padding: 15px;
     font-family: sans-serif;
 text-align: justify;
+background-color: darkslategrey;
+    color: black;
 }
 
 	@media (max-width: 767px) {
