@@ -8,7 +8,41 @@ tags:
 - deploy
 ---
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css">
+<style>
+* {
+    box-sizing: border-box;
+    /* min-width: 200px; */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: sans-serif;
+text-align: justify;
+background-color: darkslategrey;
+    color: black;
+}
 
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
+h2 {
+    /* text-decoration: underline; */
+    text-shadow: 0px 0px 35px #00ff0a;
+    color: black;
+}
+code {
+    font-family: monospace;
+    color: #00d427;
+    background-color: #000000ab;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+</style>
 ## Procedimento realizado no Debian 9
 
 #### Preparando o sistema
