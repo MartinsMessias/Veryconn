@@ -207,6 +207,7 @@ docker rmi $(docker images -q)
 # Rascunho
 
 - Criando um container do MySQL:
+
 `docker run --name mysql-server -t \
 -e MYSQL_DATABASE="zabbix" \
 -e MYSQL_USER="zabbix" \
@@ -216,6 +217,7 @@ docker rmi $(docker images -q)
 --character-set-server=utf8 --collation-server=utf8_bin`
 
 - Criando um container do Zabbix já linkado ao MySQL:
+
 `docker run --name zabbix -t \
 -e DB_SERVER_HOST="mysql-server" \
 -e MYSQL_USER="zabbix" \
