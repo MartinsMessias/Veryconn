@@ -18,7 +18,7 @@ Criado para resolver o problema do desenvolvedor cria uma aplicação em um ambi
 ![Screenshot_20191216_200655.png](/uploads/Screenshot_20191216_200655.png)
 ### **Os contâiners estão dentro do Docker.**
 
-![Screenshot_20191216_201055.png](/uploads/Screenshot_20191216_201055.png)
+![Screenshot_20191216_201055.png](/_uploads/Screenshot_20191216_201055.png)
 
 ### **Docker não é virtualização**
 
