@@ -203,3 +203,36 @@ docker rmi $(docker images -q)
 ### Vai retornar o endereço de IP do container.
 
 ## Esses são os comandos mais básicos para sobreviver os primeiros dias com o Docker, depois vai ficar fixado na cabeça e é só alegria.
+
+# Rascunho
+
+- Criando um container do MySQL:
+`docker run --name mysql-server -t \
+-e MYSQL_DATABASE="zabbix" \
+-e MYSQL_USER="zabbix" \
+-e MYSQL_PASSWORD="zabbix_pwd" \
+-e MYSQL_ROOT_PASSWORD="root_pwd" \
+-d mysql:5.7 \
+--character-set-server=utf8 --collation-server=utf8_bin`
+
+- Criando um container do Zabbix já linkado ao MySQL:
+`docker run --name zabbix -t \
+-e DB_SERVER_HOST="mysql-server" \
+-e MYSQL_USER="zabbix" \
+-e MYSQL_PASSWORD="zabbix_pwd" \
+-e MYSQL_ROOT_PASSWORD="root_pwd" \
+--link mysql-server:mysql \
+-p 10051:10051 \
+-d treinaweb/zabbix-mysql`
+
+- Criando um container com Nginx já linkado ao Zabbix e MySQL:
+
+`docker run --name nginx -t \
+-e DB_SERVER_HOST="mysql-server" \
+-e MYSQL_USER="zabbix" \
+-e MYSQL_PASSWORD="zabbix_pwd" \
+-e MYSQL_ROOT_PASSWORD="root_pwd" \
+--link mysql-server:mysql \
+--link zabbix \
+-p 80:80 \
+-d treinaweb/zabbix-mysql`
